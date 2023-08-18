@@ -1,8 +1,6 @@
-package main
+package insertionSort
 
 import (
-	"fmt"
-
 	"github.com/jkufa/CLRS-solutions-golang/packages/util"
 )
 
@@ -24,5 +22,5 @@ func insertionSort(a []int) []int {
 func main() {
 	a := util.GenerateRandomArray(100000)
 	defer util.Timer("insertionSort")()
-	fmt.Println(insertionSort(a))
+	insertionSort(a)
 }
