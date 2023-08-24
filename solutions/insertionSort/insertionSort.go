@@ -1,4 +1,4 @@
-package insertionSort
+package insertionsort
 
 import (
 	"github.com/jkufa/CLRS-solutions-golang/packages/util"
